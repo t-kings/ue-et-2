@@ -19,7 +19,7 @@ export const Home = () => {
         return;
       }
       await axios.post(
-        "https://surge-api.ngrok.io/v1/shipping-cost-calculator/email",
+        "https://whale-app-s43fa.ondigitalocean.app/v1/shipping-cost-calculator/email",
         {
           email,
         }
